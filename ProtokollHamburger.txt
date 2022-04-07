@@ -1,0 +1,19 @@
+Design:
+Ich hab das Projekt vom neuen angefangen und von den Konzepten der anderen einige Ideen aufgeschnappt. Ich habe diesmal auch alle Datenbankaktionen in eine Klasse eingefügt und
+auch die Battlelogic simpler gehalten. Die Datenbank ist diesmal viel einfacher, dafür gibt es keine Trades.
+
+Lessons Learned:
+Eine große Datenbankklasse zahlt sich aus und simpler Code der nicht 100% effizient ist über zu überdachten Code.
+
+Unittesting Decision:
+Ich hab die Battlemechanic getestet und geschaut ob die Spezialitäten und Modifikatoren funktionieren, so wie ob beide Seiten gewinnen können bzw. ein Unentschieden entstehen kann.
+
+Unique Feature:
+Da es theoretisch möglich fast alle Karten zu verlieren und nicht genug Münzen zu haben, habe ich eingebaut dass man seine restlichen Karten gegen 20 Münzen tauschen kann. Also
+ein Reset, dafür behält man aber seine Statistik.
+
+Tracked Time:
+50h+
+
+Github: Link
+https://github.com/GustavDerSchlaue/MTCGKOM
